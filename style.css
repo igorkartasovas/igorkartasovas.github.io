@@ -1,0 +1,204 @@
+
+body{
+    background-color: lightgrey;
+}
+
+h1{
+    font-family: monospace;
+    margin-left: 35px;
+    text-decoration: underline;
+}
+
+#navigation-pages li{
+    display: inline-block;
+}
+
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 45px;
+    word-spacing: 10px;
+}
+
+li{
+    font-family: monospace;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+#container{
+   
+    justify-content: space-around;
+}
+
+#text-left{
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 38px;
+    font-family: monospace;
+    line-height: 25px;
+}
+
+#img-right{
+    margin-left: 30%;
+    width: 300px;
+}
+
+#img-plane{
+    width: 350px;
+    margin-left: 40px;
+}
+
+#ig-link{
+    text-decoration: underline;
+    color: blue;
+}
+
+h2{
+    font-family: monospace;
+    margin-left: 36px;
+    text-decoration: underline;
+}
+
+#text-left2{
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 36px;
+    font-family: monospace;
+    line-height: 25px;
+}
+
+#text-center2{
+    margin-top: 30px;
+    margin-left:20%;
+}
+
+#left p{
+    margin-left: 32%;
+    font-family: monospace;
+    line-height: 25px;
+    display: inline-block;
+    max-width: 500px;
+}
+
+#img-brazil{
+    width: 300px;
+    margin-left: 20px;
+}
+
+#img-right2{
+    margin-left: 35%;
+    margin-top: 30px;
+}
+
+#images{
+    display: flex;
+    margin-left: 8%;
+    margin-top: 50px;
+}
+
+#img-sp{
+    width:500px;
+    
+}
+
+#img-bh{
+    width: 500px;
+    
+}
+
+#text-center{
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+#pictures-link{
+    text-decoration: underline;
+    color: blue;
+}
+
+#img1{
+    width: 200px;
+}
+
+#img2{
+    width: 250px;
+}
+
+#img3{
+    width: 200px;
+}
+
+#img4{
+    width: 200px;
+}
+
+#img5{
+    width: 200px;
+}
+
+#img6{
+    width: 200px;
+}
+
+#img7{
+    width: 500px;
+}
+
+#campus-pics1{
+    display: inline-block;
+    margin-left: 30%;
+}
+
+#campus-pics2{
+    display: inline-block;
+    margin-left: 30%;
+}
+
+#campus-pics3{
+    display: inline-block;
+    margin-left: 30%;
+}
+
+#campus-pics4{
+    display: inline-block;
+    margin-left: 29%;
+    margin-top: 80px;
+}
+
+#caption1{
+    font-size: 11.5px;
+    font-family: monospace;
+    margin-left: 120px;
+}
+
+#caption4{
+    font-size: 11.5px;
+    font-family: monospace;
+    margin-left: 50px;
+}
+
+#caption6{
+    font-family: monospace;
+    margin-left: 25px;
+    font-size: 11.5px;
+}
+
+#caption7{
+    font-size: 11.5px;
+    font-family: monospace;
+    margin-left: 90px;
+    margin-left: 110px;
+}
