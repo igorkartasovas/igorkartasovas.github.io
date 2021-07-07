@@ -15,8 +15,8 @@
 }
 
 body, html{
-    height: 100%;
-    margin: 0px auto;
+    height: auto;
+    margin:  auto;
     padding: 0px auto;
 }
 
@@ -36,10 +36,14 @@ body, html{
     border-top: 220px solid rgb(189, 175, 175);
     border-right: 220px solid transparent;
     position: absolute;
+    -webkit-transition: 2s; 
+    transition: 1s;
 }
 
 #Triangle-Top-Left:hover{
-   
+    transform:rotate(720deg);
+    -ms-transform:rotate(762deg);
+    -webkit-transform:rotate(720deg);
 }
 
 #Triangle-Left-Black{
@@ -60,8 +64,6 @@ body, html{
     -ms-transform:rotate(762deg);
     -webkit-transform:rotate(720deg);
 }
-
-
 
 #Triangle-Right-Grey{
     width: 0;
@@ -116,7 +118,6 @@ body, html{
     transform:rotate(720deg);
     -ms-transform:rotate(762deg);
     -webkit-transform:rotate(720deg);
-    
 }
 
 #Triangle-Bottom-Left{
