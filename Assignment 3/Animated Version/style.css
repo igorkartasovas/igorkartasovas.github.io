@@ -1,0 +1,182 @@
+
+/* Grid */
+.grid-container {
+    margin: 3rem 4rem;
+    padding: 5rem 0;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 4px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5rem 5rem 5rem 5rem 5rem;
+    grid-row-gap: 100px;
+    justify-items: center;
+}
+
+body, html{
+    height: 100%;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.wrapper{
+    width: auto;
+    height: auto;
+    min-height: 100%;
+    margin: 0px auto;
+    padding: 0px auto;
+    margin-left: 28%;
+    margin-top: 50px;
+}
+
+#Triangle-Top-Left{
+    width: 0;
+    height: 0;
+    border-top: 220px solid rgb(189, 175, 175);
+    border-right: 220px solid transparent;
+    position: absolute;
+}
+
+#Triangle-Top-Left:hover{
+   
+}
+
+#Triangle-Left-Black{
+    width: 0;
+    height: 0;
+    border-top: 330px solid transparent;
+    border-right: 350px solid black;
+    border-bottom: 330px solid transparent;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: -30px;
+    -webkit-transition: 2s; 
+    transition: 1s;
+}
+
+#Triangle-Left-Black:hover{
+    transform:rotate(720deg);
+    -ms-transform:rotate(762deg);
+    -webkit-transform:rotate(720deg);
+}
+
+
+
+#Triangle-Right-Grey{
+    width: 0;
+    height: 0;
+    border-top: 220px solid transparent;
+    border-left: 260px solid rgb(228, 201, 181);
+    border-bottom: 220px solid transparent;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -50px;
+    -webkit-transition: 2s; 
+    transition: 1s;
+}
+
+#Triangle-Right-Grey:hover{
+    transform:rotate(720deg);
+    -ms-transform:rotate(762deg);
+    -webkit-transform:rotate(720deg);
+}
+
+#Triangle-Down{
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-top: 170px solid rgb(109, 99, 99);
+    margin-left: 308px;
+    -webkit-transition: 2s; 
+    transition: 1s;
+}
+
+#Triangle-Down:hover{
+    transform:rotate(720deg);
+    -ms-transform:rotate(762deg);
+    -webkit-transform:rotate(720deg);
+}
+
+#Triangle-Left-Red{
+    width: 0;
+    height: 0;
+    border-top: 600px solid transparent;
+    border-right: 700px solid rgb(182, 45, 45);
+    border-bottom: 600px solid transparent;
+    position: absolute;
+    margin-left:249.5px;
+    margin-top: -380px;
+    -webkit-transition: 2s; 
+    transition: 1s;
+}
+
+#Triangle-Left-Red:hover{
+    transform:rotate(720deg);
+    -ms-transform:rotate(762deg);
+    -webkit-transform:rotate(720deg);
+    
+}
+
+#Triangle-Bottom-Left{
+    width: 0;
+    height: 0;
+    border-bottom: 242px solid rgb(179, 173, 173);
+    border-right: 280px solid transparent;
+    position: absolute;
+    margin-top: 215px;
+    margin-left: 250px;
+    -webkit-transition: 2s; 
+    transition: 1s;
+}
+
+#Triangle-Bottom-Left:hover{
+    transform:rotate(720deg);
+    opacity: 1.6;
+    transition: 0.3s;
+    background-color: blue;
+}
+
+#Triangle-Right-Yellow{
+    width: 0;
+    height: 0;
+    border-top: 170px solid transparent;
+    border-left: 180px solid rgb(235, 168, 23);
+    border-bottom: 150px solid transparent;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 177px;
+    -webkit-transition: 2s; 
+    transition: 1s;
+}
+
+#Triangle-Right-Yellow:hover{
+    transform:rotate(720deg);
+    opacity: 1.6;
+    transition: 0.3s;
+    background-color: #f4511e;
+}
+
+#Triangle-Up{
+    width: 0;
+    height: 0;
+    border-left: 180px solid transparent;
+    border-right: 160px solid transparent;
+    border-bottom: 110px solid rgb(228, 201, 181);
+    margin-left: -50px;
+    margin-top: 345px;
+    -webkit-transition: 2s; 
+    transition: 1s;
+}
+
+#Triangle-Up:hover{
+    transform:rotate(720deg);
+    opacity: 1.6;
+    transition: 0.3s;
+    background-color: darkgray;
+}
+
+
+
+
