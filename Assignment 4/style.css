@@ -1,0 +1,275 @@
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: monospace;
+    font-size: 25px;
+    color: black;
+    margin-left: 385px;
+    color: white;
+}
+
+p{
+    font-family: monospace;
+    margin-left: 385px;
+    color: white;
+}
+
+#hide{
+    border-radius: 20px;
+    border:0.5px solid;
+    border-color: darkgrey;
+    box-shadow: 0.1px 0.1px lightgrey;
+    width: 170px;
+    height: 40px;
+    background-color: white;
+    margin-left: 505px;
+    margin-top: 50px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#show{
+    border-radius: 20px;
+    border:0.5px solid;
+    border-color: darkgrey;
+    box-shadow: 0.1px 0.1px lightgrey;
+    width: 170px;
+    height: 40px;
+    background-color: white;
+    margin-left: 505px;
+    margin-top: 10px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+li{
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 515px;
+    margin-top: 30px;
+    color: white;
+}
+
+#show-ul{
+    margin-top: 70px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#field{
+    width: 600px;;
+    height: 350px;
+}
+
+#tennis-court{
+    width: 570px;;
+    height: 350px;
+    margin-left: 590px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#text-img {
+    position: absolute;
+    top: 70px;
+    margin-left: 220px;
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+#text-img2{
+    position: absolute;
+    top: 440px;
+    margin-left: -390px;
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+#show-field{
+    position: absolute;
+    margin-left: -370px;
+    border-radius: 20px;
+    border:0.5px solid;
+    border-color: darkgrey;
+    box-shadow: 0.1px 0.1px lightgrey;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    font-family: monospace;
+    font-size: 18px;
+    margin-top: 130px;
+}
+
+#hide-field{
+    position: absolute;
+    margin-left: -370px;
+    border-radius: 20px;
+    border:0.5px solid;
+    border-color: darkgrey;
+    box-shadow: 0.1px 0.1px lightgrey;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    font-family: monospace;
+    font-size: 18px;
+    margin-top: 180px;
+}
+
+#homepage{
+    position: absolute;
+    margin-left: 440px;
+    margin-top: 100px;
+    border-radius: 20px;
+    border:0.5px solid;
+    border-color: darkgrey;
+    box-shadow: 0.1px 0.1px lightgrey;
+    width: 300px;
+    height: 50px;
+}
+
+#homepage a{
+    color: black;
+    font-size: 18.5px;
+    font-family: monospace;
+}
+
+#container3{
+    position: relative;
+    text-align: center;
+    background-color: white;
+}
+
+#hide-info{
+    position: absolute;
+    margin-left: 250px;
+    border-radius: 20px;
+    border:0.5px solid;
+    border-color: darkgrey;
+    box-shadow: 0.1px 0.1px lightgrey;
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    font-family: monospace;
+    font-size: 18px;
+    margin-top: -650px;
+}
+
+#show-info{
+    position: absolute;
+    margin-left: 250px;
+    border-radius: 20px;
+    border:0.1px solid;
+    border-color: darkgrey;
+    box-shadow: 0.1px 0.1px lightgrey;
+    width: 150px;
+    height: 40px;
+    background-color:transparent;
+    font-family: monospace;
+    font-size: 18px;
+    margin-top: -700px;
+}
+
+#text-img3{
+    font-size: 20px;
+    font-family: monospace;
+    margin-top: -600px;
+    margin-left: 370px;
+    width: 700px;
+    text-align: left;
+}
+
+#home-page2{
+    position: absolute;
+    margin-left: -130px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border:0.5px solid;
+    border-color: darkgrey;
+    box-shadow: 0.1px 0.1px lightgrey;
+    width: 300px;
+    height: 50px;
+}
+
+.boxed{
+    border: 2px soldid white;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+#text1{
+    font-family: monospace;
+    font-size: 19px;
+    margin-left: 180px;
+    width: 70%;
+    text-align: center;
+}
+
+#text2{
+    font-family: monospace;
+    font-size: 19px;
+    margin-left: 180px;
+    margin-top: 100px;
+    width: 70%;
+    text-align: center;
+}
+
+#show-more{
+    position: absolute;
+    margin-left: 500px;
+    border-radius: 20px;
+    border:0.1px solid;
+    border-color: darkgrey;
+    box-shadow: 0.1px 0.1px lightgrey;
+    width: 150px;
+    height: 40px;
+    background-color:white;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+#hide-more{
+    position: absolute;
+    margin-left: 500px;
+    border-radius: 20px;
+    border:0.1px solid;
+    border-color: darkgrey;
+    box-shadow: 0.1px 0.1px lightgrey;
+    width: 150px;
+    height: 40px;
+    background-color:white;
+    font-family: monospace;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+#home-page3{
+    position: absolute;
+    margin-left: -130px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border:0.5px solid;
+    border-color: darkgrey;
+    box-shadow: 0.1px 0.1px lightgrey;
+    width: 300px;
+    height: 50px;
+}
+
+
+
